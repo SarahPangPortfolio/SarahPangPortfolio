@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+html{
+    background-color: antiquewhite;
+    margin:0em 10em;
+    padding-bottom: 5em;
+}
+  
+nav{
+    padding-top: 2em;
+    padding-bottom: 2em;
+    text-align: right;
+}
+
+body {
+    font-family:"Steradian", Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+p.introduction{
+    font-size: 1.5em;
+}
+
+p.schooling{
+    text-align: right;
+}
+
+.Front_Img{
+    width: 100%;
+}
