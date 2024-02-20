@@ -75,13 +75,8 @@
   }
 }
 
+/* 384px 24em = samsung s22 ultra */
 @media(max-width: 30em){
-  html{
-    margin:0em 3em;
-  }
-}
-
-@media(max-width: 20em){
   html{
     margin:0em 2em;
   }
@@ -108,5 +103,19 @@
     height: 10em;
     column-gap: 5%;
     background-color: rgb(129, 115, 255);
+  }
+  p.introduction{
+    font-size: 1em;
+  }
+
+  p.schooling{
+    font-size: 0.5em;
+    text-align: left;
+  }
+}
+
+@media(max-width: 20em){
+  p.introduction{
+    margin-right: 2em;
   }
 }
