@@ -19,6 +19,11 @@ body {
     color: rgb(0, 0, 0);
 }
 
+a.project_link{
+    text-decoration: none;
+    color: black;
+}
+
 p.introduction{
     font-size: 1.5em;
 }
@@ -27,6 +32,10 @@ p.schooling{
     text-align: right;
 }
 
-.Front_Img{
+h2{
+    font-size: 1em;
+}
+
+.front_img{
     width: 100%;
 }
