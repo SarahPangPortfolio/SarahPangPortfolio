@@ -1,0 +1,39 @@
+/* BOLD WEIGHT */
+@font-face{
+    font-family: "Steradian";
+    font-weight: bold;
+    font-style: normal;
+    src: url('/font/Steradian-Bold.woff') format('woff'),
+    url('/font/Steradian-Bold.woff2')format('woff2');
+    font-display: swap;
+}
+
+/* BOLD WEIGHT ITALIC*/
+@font-face{
+    font-family: "Steradian";
+    font-weight: bold;
+    font-style: italic;
+    src: url('/font/Steradian-Bold-Italic.woff') format('woff'),
+    url('/font/Steradian-Bold-Italic.woff2')format('woff2');
+    font-display: swap;
+}
+
+/* NORMAL WEIGHT */
+@font-face{
+    font-family: "Steradian";
+    font-weight: normal;
+    font-style: normal;
+    src: url('/font/Steradian-Regular.woff') format('woff'),
+    url('/font/Steradian-Regular.woff2')format('woff2');
+    font-display: swap;
+}
+
+/* NORMAL WEIGHT ITALIC*/
+@font-face{
+    font-family: "Steradian";
+    font-weight: normal;
+    font-style: italic;
+    src: url('/font/Steradian-Regular-Italic.woff') format('woff'),
+    url('/font/Steradian-Regular-Italic.woff2')format('woff2');
+    font-display: swap;
+}
