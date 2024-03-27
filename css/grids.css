@@ -23,6 +23,27 @@
   .grid-container{
     grid-template-columns: auto auto auto;
   }
+  iframe{
+    height: 58rem;
+  }
+}
+
+@media(max-width: 110em){
+  iframe{
+    height: 53rem;
+  }
+}
+
+@media(max-width: 100em){
+  iframe{
+    height: 48rem;
+  }
+}
+
+@media(max-width: 90em){
+  iframe{
+    height: 43rem;
+  }
 }
 
 @media(max-width: 80em){
@@ -31,6 +52,9 @@
   }
   .grid-container{
     grid-template-columns: auto auto;
+  }
+  iframe{
+    height: 38rem;
   }
 }
 
@@ -41,6 +65,9 @@
   .grid-container{
     grid-template-columns: auto auto;
   }
+  iframe{
+    height: 33rem;
+  }
 }
 
 @media(max-width: 60em){
@@ -49,6 +76,9 @@
   }
   .grid-container{
     grid-template-columns: auto auto;
+  }
+  iframe{
+    height: 28rem;
   }
 }
 
@@ -59,6 +89,9 @@
   .grid-container{
     grid-template-columns: auto;
   }
+  iframe{
+    height: 23rem;
+  }
 }
 
 @media(max-width: 40em){
@@ -67,6 +100,9 @@
   }
   .grid-container{
     grid-template-columns: auto;
+  }
+  iframe{
+    height: 18rem;
   }
 }
 
@@ -106,10 +142,17 @@
     font-size: 0.5em;
     text-align: left;
   }
+
+  iframe{
+    height: 15rem;
+  }
 }
 
 @media(max-width: 20em){
   p.introduction{
     margin-right: 2em;
+  }
+  iframe{
+    height: 8rem;
   }
 }
