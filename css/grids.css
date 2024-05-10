@@ -81,6 +81,40 @@
   width: 100%;
 }
 
+.mockup-stair{
+  width: auto;
+  grid-area: stair;
+}
+.mockup-sign{
+  width: auto;
+  grid-area: sign;
+}
+.mockup-flyer{
+  width: auto;
+  grid-area: flyer;
+}
+.mockup-computer{
+  width: auto;
+  grid-area: computer;
+}
+
+.mockup-img{
+  height: 100%;
+  max-width: 100%;
+}
+
+.mockups-container{
+  display: grid;
+  width: 100%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  grid-template-areas:
+    'stair stair sign flyer'
+    'stair stair computer computer';
+  column-gap: 1%;
+  row-gap: 2%;
+}
+
 /* 1px = 0.0625em */
 
 @media(max-width: 120em){
