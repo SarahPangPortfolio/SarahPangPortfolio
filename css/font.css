@@ -37,3 +37,33 @@
     url('/font/Steradian-Regular-Italic.woff2')format('woff2');
     font-display: swap;
 }
+
+/* HEROKID BOLD CONDENSED */
+@font-face{
+    font-family: "Herokid";
+    font-weight: bold;
+    font-style: normal;
+    src: url('/font/Herokid-Bold-Condensed.woff') format('woff'),
+    url('/font/Herokid-Bold-Condensed.woff2') format('woff2');
+    font-display: swap;
+}
+
+/* DM MONO REGULAR */
+@font-face{
+    font-family: "DM-Mono";
+    font-weight: normal;
+    font-style: normal;
+    src: url('/font/DM-Mono-Regular.woff') format('woff'),
+    url('/font/DM-Mono-Regular.woff2') format('woff2');
+    font-display: swap;
+}
+
+/* DM MONO MEDIUM */
+@font-face{
+    font-family: "DM-Mono";
+    font-weight: bold;
+    font-style: normal;
+    src: url('/font/DM-Mono-Medium.woff') format('woff'),
+    url('/font/DM-Mono-Medium.woff2') format('woff2');
+    font-display: swap;
+}

@@ -19,6 +19,50 @@ body {
     color: rgb(0, 0, 0);
 }
 
+.herokid-bold{
+    font-family:"Herokid", Arial, Helvetica, sans-serif;
+    width: 100%;
+    margin-top: 0.5em;
+    margin-bottom: 0em;
+    padding-right: 1em;
+    font-size: 230%;
+    color: rgb(0, 0, 0);
+}
+
+.herokid-bold p{
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
+.herokid-bold ul{
+    margin-top: 0em;
+    margin-bottom: 0em;
+    font-size: 0.5em;
+}
+
+.font-red{
+    color: #B92621;
+}
+
+.dm-mono{
+    font-family:"DM-Mono", Arial, Helvetica, sans-serif;
+    width: 100%;
+    margin-top: 0.5em;
+    margin-bottom: 0em;
+    padding-right: 1em;
+    font-size: 230%;
+    color: rgb(0, 0, 0);
+}
+
+.dm-mono-medium{
+    font-weight: bold;
+}
+
+.dm-mono p{
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
 a.project_link{
     text-decoration: none;
     color: black;
