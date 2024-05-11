@@ -40,6 +40,10 @@ h2{
     width: 100%;
 }
 
+.selected{
+    font-weight: bolder;
+}
+
 iframe{
     width: 100%;
     height: 65rem;
