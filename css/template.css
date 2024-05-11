@@ -1,0 +1,72 @@
+/* 1px = 0.0625em */
+
+/* 1920 */
+@media(max-width: 120em){
+}
+
+/* 1760 */
+@media(max-width: 110em){
+}
+
+/* 1600 */
+@media(max-width: 100em){
+}
+
+/* 1440 */
+@media(max-width: 90em){
+}
+
+/* 1280 */
+@media(max-width: 80em){
+}
+
+/* 1120 */
+@media(max-width: 70em){
+}
+
+/* 1060 */
+@media(max-width: 60em){
+}
+
+/* 900 */
+@media(max-width: 50em){
+}
+
+/* 740 */
+@media(max-width: 40em){
+}
+
+/* 580 */
+/* 384px 24em = samsung s22 ultra */
+@media(max-width: 30em){
+}
+
+/* 420 */
+@media(max-width: 20em){
+}
+
+/* 
+<!DOCTYPE HTML>
+<html style="font-size: 16px;" lang="en">
+    <head>
+        <title>Sarah - Time Escape</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="About Time Escape User Experience">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/grids.css"> 
+        <link rel="stylesheet" href="css/font.css">
+        <link rel="stylesheet" href="css/timeescape.css">
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <a href="index.html">Sarah Pang</a>
+                <a href="about.html">About Me</a>
+            </nav>
+        </header>
+    </body>
+
+</html>
+*/
