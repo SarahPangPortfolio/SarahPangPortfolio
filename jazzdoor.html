@@ -43,7 +43,7 @@
         <h2>Art Direction</h2>
         <div class="art-direction-container">
             <p>Fonts:</p>
-            <div class="art-direction-font">
+            <div class="art-direction-item">
                 <div class="herokid-bold">
                     <p>HEROKID BOLD CONDENCED</p>
                     <ul>
@@ -57,14 +57,14 @@
                     <p>DM Mono</p>
                     <div class="dm-mono-container">
                         <div class="dm-mono-item">
-                            <p>medium</p>
+                            <p>MEDIUM:</p>
                             <p class="dm-mono-medium">Clemént Janinet<br>
                             Hugues Mayot<br>
                             Joachim Florent<br>
                             Emmanuel Scarpa</p>
                         </div>
                         <div class="dm-mono-item">
-                            <p>regular</p>
+                            <p>REGULAR:</p>
                             <p>violin, compositions<br>
                             saxophone, clarinet<br>
                             drums, percussion</p>
@@ -73,19 +73,36 @@
                 </div>
                 <p>DM Mono pays homage to the fonts commonly used on vinyl records, giving a nostalgic record shop theme. Its multiple weights establishes a clear hierarchy of information to ensure that important details are prominent, readable, and contributes to the overall atmosphere of the microsite.</p>
             </div>
-
-            <div class="art-direction-item"></div>
-                <p>Color System:</p>
+            <p>Color System:</p>
+            <div class="art-direction-item">
+                <div class="color-container">
+                    <div class="color-red">
+                        <p>PRIMARY</p>
+                        <p class="color-code">#B92621</p>
+                    </div>
+                    <div class="color-yellow">
+                        <p>SECONDARY</p>
+                        <p class="color-code">#F3C607</p>
+                    </div>
+                    <div class="color-blue">
+                        <p>CURSOR</p>
+                        <p class="color-code">#5C9FD1</p>
+                    </div>
+                    <div class="color-black">
+                        <p>TEXT</p>
+                        <p class="color-code">#000000</p>
+                    </div>
+                </div>
                 <p>The dominant primary colors from the original poster are translated to the microsite as interactable elements. The bold colors contrasts against the soft textured background to create visual balance.</p>
             </div>
-
-            <div class="art-direction-item"></div>
-                <p>Monochrome Filter</p>
+            <p>Monochrome Filter</p>
+            <div class="art-direction-item">
+                <img class="monochrome_img" src="img/Jazzdoor/Jazzdoor_Media.png" alt="A monochromatic image of the video that plays of the selected artist's performance.">
                 <p>Videos in the media player are in black and white to instead shift the user's focus to the music playing. This also establishes balance against the loud primary colors of the microsite.</p>
             </div>
-
-            <div class="art-direction-item"></div>
-                <p>Nostalgic Realism</p>
+            <p>Nostalgic Realism</p>
+            <div class="art-direction-item">
+                <img class="monochrome_img" src="img/Jazzdoor/Image_Treatment.png" alt="A photo of texture, monochome, and vinyl cover">
                 <p>Textures are used to add to the nostalgic theme by translating the physical feel of vintage items into the digital space as seen on the background and vinyl covers resembling paper and plastic respectively.</p>
             </div>
         </div>
@@ -95,18 +112,46 @@
             <div class="carousel-item-jazzdoor-user-flow">
                 <P>Landing Page</P>
                 <img class="user_flow_img" src="img/Jazzdoor/Jazzdoor_Landing_Page.png" alt="Jazzdoor microsite landing page. The word Jazzdoor in red font in the middle of the image.">
+                <p>Interactions:</p>
+                <ul>
+                    <li>Hover to change color</li>
+                    <li>Hover to enlarge cursor</li>
+                </ul>
+
+                <p>The enlargement of the cursor changes when hovering over elements to help indicate to the user what parts of the microsite are interactable.</p>
             </div>
             <div class="carousel-item-jazzdoor-user-flow">
                 <P>Artist Selection</P>
                 <img class="user_flow_img" src="img/Jazzdoor/Jazzdoor_Festival_Lineup.png" alt="Jazzdoor microsite lineup page. A row of albums with a vinyl disc poping up when the user hovers over it.">
+                <p>Interactions:</p>
+                <ul>
+                    <li>Hover on vinyl to reveal sound samples</li>
+                    <li>Click on vinyl to reveal artists details</li>
+                </ul>
+        
+                <p>The vinyl covers are animated in a belt-like fashion, providing users with an intuitive and seamless browsing experience, allowing them to easily select and click on their desired artist.</p>
             </div>
             <div class="carousel-item-jazzdoor-user-flow">
                 <P>Artist Details</P>
                 <img class="user_flow_img" src="img/Jazzdoor/Jazzdoor_info_page.png" alt="Jazzdoor artist infromation displayed in a ticket like format">
+                <p>Interactions:</p>
+                <ul>
+                    <li>Click on boxes to expand</li>
+                    <li>Click on close button to collapse elements</li>
+                    <li>Click on next button to navigate to image gallery</li>
+                </ul>
+        
+                <p>Users will reveal parts of the microsite that contains the artist details. When the user clicks on the box, it expands to reveal the information that is initially hidden from the user.</p>
             </div>
             <div class="carousel-item-jazzdoor-user-flow">
                 <P>Image Gallery</P>
                 <img class="user_flow_img" src="img/Jazzdoor/Jazzdoor_Gallery.png" alt="A collection of images from the selected artist's performance all stacked on top of each other.">
+                <p>Interactions:</p>
+                <ul>
+                    <li>Click to stack new images</li>
+                </ul>
+        
+                <p>Users can view the image gallery by clicking on the next button. As the user clicks on an image, a new image will stack on top of it, which replicates the feeling of flipping through vinyl records in a stack. The image sequence will loop itself until the user clicks away from the gallery.</p>
             </div>
             <div class="carousel-item-jazzdoor-user-flow">
                 <P>Media Player</P>
@@ -116,42 +161,7 @@
             <button id="next">></button>
         </div>
 
-        <script src="js/myScript.js"></script>
-
-        <h2>Festival Lineup</h2>
-        <p>Interactions:</p>
-        <ul>
-            <li>Hover on vinyl to reveal sound samples</li>
-            <li>Click on vinyl to reveal artists details</li>
-        </ul>
-
-        <p>The vinyl covers are animated in a belt-like fashion, providing users with an intuitive and seamless browsing experience, allowing them to easily select and click on their desired artist.</p>
-
-        <h2>Artist Details</h2>
-        <p>Interactions:</p>
-        <ul>
-            <li>Click on boxes to expand</li>
-            <li>Click on close button to collapse elements</li>
-            <li>Click on next button to navigate to image gallery</li>
-        </ul>
-
-        <p>Users will reveal parts of the microsite that contains the artist details. When the user clicks on the box, it expands to reveal the information that is initially hidden from the user.</p>
-
-        <h2>Image Gallery</h2>
-        <p>Interactions:</p>
-        <ul>
-            <li>Click to stack new images</li>
-        </ul>
-
-        <p>Users can view the image gallery by clicking on the next button. As the user clicks on an image, a new image will stack on top of it, which replicates the feeling of flipping through vinyl records in a stack. The image sequence will loop itself until the user clicks away from the gallery.</p>
-
-        <h2>Mouse Interaction</h2>
-        <p>Interactions:</p>
-        <ul>
-            <li>Cursor enlarging when hovering over clickable elements</li>
-        </ul>
-
-        <p>The enlargement of the cursor changes when hovering over elements to help indicate to the user what parts of the microsite are interactable.</p>
+        <!-- <script src="js/myScript.js"></script> -->
 
         <h2>Graphical Experimentations</h2>
 
@@ -170,7 +180,6 @@
         <p>Posters were created based on Massimo Vignelli and Ellen Lupton design pricinples of tension and grids. The tension is created by having tight spacing between elements, hierarchy established by size, and the use of rules to create strcutre within the works.Grids, being lines used for alignment, break down spaces into sections.</p>
 
         <h2>Mockups</h2>
-        <p>The poster's design is translated into different mockups and usages while maining the same language.</p>
         <div class="mockups-container">
             <div class="mockup-stair">
                 <img class="mockup-img" src="img/Jazzdoor/Mockup_stairs.png" alt="A stairwell with the same design language as the poster">
