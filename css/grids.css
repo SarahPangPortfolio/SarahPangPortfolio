@@ -231,16 +231,6 @@
   iframe{
     height: 23rem;
   }
-
-  .content-strat-container{
-    grid-template-columns: auto;
-    grid-template-rows: auto auto;
-    row-gap: 1em;
-  }
-
-  .art-direction-font{
-    grid-template-columns: auto;
-  }
 }
 
 @media(max-width: 40em){
