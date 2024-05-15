@@ -1,0 +1,48 @@
+
+
+/* 1px = 0.0625em */
+
+/* 1920 */
+@media(max-width: 120em){
+}
+
+/* 1760 */
+@media(max-width: 110em){
+}
+
+/* 1600 */
+@media(max-width: 100em){
+}
+
+/* 1440 */
+@media(max-width: 90em){
+}
+
+/* 1280 */
+@media(max-width: 80em){
+}
+
+/* 1120 */
+@media(max-width: 70em){
+}
+
+/* 1060 */
+@media(max-width: 60em){
+}
+
+/* 900 */
+@media(max-width: 50em){
+}
+
+/* 740 */
+@media(max-width: 40em){
+}
+
+/* 580 */
+/* 384px 24em = samsung s22 ultra */
+@media(max-width: 30em){
+}
+
+/* 420 */
+@media(max-width: 20em){
+}
