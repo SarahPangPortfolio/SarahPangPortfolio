@@ -1,8 +1,34 @@
 /* EMMA HANDS MAIN CSS */
 /* ------------------------------------------------------- */
+#stickers{
+    width: 50%;
+}
+
+.color-code{
+    text-align: center;
+    align-items: baseline;
+}
+
+#white{
+    background-color: white;
+}
+
+#pink{
+    background-color: #F3B2E5;
+}
+
+#purple{
+    background-color: #D4AED1;
+}
+
+
 
 /* EMMA HANDS GRID CSS */
 /* ------------------------------------------------------- */
+#art_direction{
+    grid-template-columns: 50% 45%;
+    justify-items: center;
+}
 
 /* POCKET SALON MEDIA CSS */
 /* ------------------------------------------------------- */
