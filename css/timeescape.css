@@ -3,12 +3,8 @@
 
 /* TIME ESCAPE GRID CSS */
 /* ------------------------------------------------------- */
-.context-container{
-    display: grid;
-    grid-template-rows: auto;
-}
 
-.take-aways-container{
+#take-aways{
     display: grid;
     width: 100%;
     grid-template-columns: auto auto;
@@ -17,17 +13,17 @@
     justify-items: right;
 }
 
-.take-aways-container img{
+#take-aways img{
     width: 50%;
 }
 
-.initial-concepts-container{
-    display: grid;
-    width: 100%;
-    grid-template-columns: auto auto auto;
+#design-concepts{
     grid-template-rows: auto auto;
-    column-gap: 5%;
     text-align: center;
+}
+
+.two-columns-container p{
+    justify-self: left;
 }
 
 /* TIME ESCAPE MEDIA CSS */
@@ -68,6 +64,9 @@
 
 /* 740 */
 @media(max-width: 40em){
+    #business-context{
+        grid-template-columns: auto auto;
+    }
 }
 
 /* 580 */
