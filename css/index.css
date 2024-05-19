@@ -19,9 +19,10 @@
     flex-wrap: nowrap;
     overflow: hidden;
     position: relative;
+    height: 50%;
     width: max-content;
-    
     column-gap: 5%;
+    
   }
 
   /* MMMMMMEEEEEEEDDDDDDDDDDIIIIIIIIAAAAAAAAAAA */
